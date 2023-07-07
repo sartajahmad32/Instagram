@@ -1,0 +1,57 @@
+.forgot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .forgot-form,
+  .forgot-success {
+    max-width: 375px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .forgot-form h2,
+  .forgot-success h2 {
+    text-align: center;
+  }
+  
+  .forgot-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .forgot-form label {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-form input {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-form button {
+    padding: 8px 16px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 375px) {
+    /* Add additional styles for smaller screen widths */
+    .forgot-container {
+      padding: 10px;
+    }
+  
+    .forgot-form,
+    .forgot-success {
+      padding: 10px;
+    }
+  
+    .forgot-form input,
+    .forgot-form button {
+      width: 100%;
+    }
+  }
+  

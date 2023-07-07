@@ -1,0 +1,51 @@
+.login-form {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    background-color: rgb(50, 50, 249);
+  }
+  div{
+    margin-right: 3px;
+  }
+  .forgot{
+    padding: 0px 5px;
+  }
+  .signup{
+    padding: 0px 5px;
+  }
+  @media (max-width: 375px) {
+    /* Add additional styles for smaller screen widths */
+    .login-form {
+      padding: 10px;
+    }
+  
+    input,
+    button {
+      width: 100%;
+      background-color: rgb(50, 50, 249);
+    }
+  }
+  
